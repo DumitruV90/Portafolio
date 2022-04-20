@@ -530,6 +530,7 @@ section {
 
 .skills-wrapper .skills-row figure {
   display: inline-table;
+  margin: .3rem;
 }
 
 .skills-wrapper .skills-row figure img {
