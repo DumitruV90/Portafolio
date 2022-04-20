@@ -47,6 +47,7 @@ body {
 }
 
 header {
+  min-height: 97vh;
   height: 97vh;
   color: var(--white-color);
   overflow: hidden;
@@ -262,6 +263,10 @@ section {
 
 .header-content .right-header .name span {
   color: var(--secondary-color);
+}
+
+.header-content .right-header .name br {
+  display: none;
 }
 
 .header-content .right-header p {
@@ -881,6 +886,9 @@ footer a:hover {
   }
   .header-content .right-header .name {
     font-size: 2rem;
+  }
+  .header-content .right-header .name br {
+    display: block;
   }
   section {
     padding: 2rem auto !important;

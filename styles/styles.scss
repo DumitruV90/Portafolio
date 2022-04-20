@@ -46,6 +46,7 @@ body {
 }
 
 header {
+    min-height: 97vh;
     height: 97vh;
     color: var(--white-color);
     overflow: hidden;
@@ -187,6 +188,9 @@ section {
             font-size: 3rem;
             span {
                 color: var(--secondary-color);
+            }
+            br {
+                display: none;
             }
         }
         p {

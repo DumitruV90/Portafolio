@@ -135,6 +135,9 @@
         .right-header {
            .name {
                font-size: 2rem;
+               br {
+                display: block;
+               }
            }
         }
     }
