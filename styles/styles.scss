@@ -164,6 +164,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
+    overflow-y: auto;
     .left-header {
         display: flex;
         align-items: center;
@@ -389,7 +390,7 @@ section {
     text-align: center;
     .skills-row {
         padding: 20px;
-        margin: 10px;
+        margin: .5rem;
         figure {
             display: inline-table;
             margin: .3rem;
