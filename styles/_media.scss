@@ -218,5 +218,13 @@
     
 }
 
+@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 950px) {
+    .light-theme {
+        display: none;
+    }
 
+    header {
+        margin-bottom: 9rem
+    }
+}
 

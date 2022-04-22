@@ -46,10 +46,8 @@ body {
 }
 
 header {
-    min-height: 97vh;
     height: 97vh;
     color: var(--white-color);
-    overflow: hidden;
 }
 
 a {
@@ -60,9 +58,9 @@ a {
 }
 
 section {
+    padding: 3rem 0rem;
     min-height: 97vh;
     width: 100%;
-    padding: 3rem 0rem;
 }
 
 .section {
@@ -164,7 +162,6 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
-    overflow-y: auto;
     .left-header {
         display: flex;
         align-items: center;
@@ -385,7 +382,7 @@ section {
 /* Sección de habilidades */
 
 .skills-wrapper {
-    margin: 5rem auto;
+    margin: 5rem auto 2rem auto;
     max-width: 68.75rem;
     text-align: center;
     .skills-row {
@@ -393,7 +390,7 @@ section {
         margin: .5rem;
         figure {
             display: inline-table;
-            margin: .3rem;
+            margin: .5rem;
             img {
                 margin: 0 2rem;
                 padding: 1.25rem;

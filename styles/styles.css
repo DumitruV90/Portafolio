@@ -47,10 +47,8 @@ body {
 }
 
 header {
-  min-height: 97vh;
   height: 97vh;
   color: var(--white-color);
-  overflow: hidden;
 }
 
 a {
@@ -61,9 +59,9 @@ a {
 }
 
 section {
+  padding: 3rem 0rem;
   min-height: 97vh;
   width: 100%;
-  padding: 3rem 0rem;
 }
 
 .section {
@@ -215,7 +213,6 @@ section {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   height: 100%;
-  overflow-y: auto;
 }
 
 .header-content .left-header {
@@ -524,7 +521,7 @@ section {
 
 /* Sección de habilidades */
 .skills-wrapper {
-  margin: 5rem auto;
+  margin: 5rem auto 2rem auto;
   max-width: 68.75rem;
   text-align: center;
 }
@@ -536,7 +533,7 @@ section {
 
 .skills-wrapper .skills-row figure {
   display: inline-table;
-  margin: .3rem;
+  margin: .5rem;
 }
 
 .skills-wrapper .skills-row figure img {
@@ -952,6 +949,15 @@ footer a:hover {
   }
   footer {
     display: none;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 950px) {
+  .light-theme {
+    display: none;
+  }
+  header {
+    margin-bottom: 9rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
