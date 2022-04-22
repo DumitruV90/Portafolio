@@ -952,7 +952,7 @@ footer a:hover {
   }
 }
 
-@media screen and (orientation: landscape) and (min-device-width: 320px) and (max-device-width: 950px) {
+@media screen and (orientation: landscape) and (min-device-width: 300px) and (max-device-width: 950px) {
   .light-theme {
     display: none;
   }
