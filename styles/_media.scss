@@ -211,16 +211,24 @@
             margin-bottom: 3rem;
         }
     }
-    
+
     footer {
         display: none;
     }
-    
 }
 
 @media screen and (orientation: landscape) and (min-device-width: 300px) and (max-device-width: 950px) {
     .light-theme {
         display: none;
+    }
+
+    .bar  {
+        bottom: 0;
+        height: 80%;
+        flex-direction: column;
+        .control {
+            margin: .3rem .1rem;
+        }
     }
 
     header {

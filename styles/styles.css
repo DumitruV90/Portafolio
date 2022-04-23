@@ -956,6 +956,17 @@ footer a:hover {
   .light-theme {
     display: none;
   }
+  .bar {
+    bottom: 0;
+    height: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bar .control {
+    margin: .3rem .1rem;
+  }
   header {
     margin-bottom: 9rem;
   }
