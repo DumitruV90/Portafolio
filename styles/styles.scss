@@ -42,6 +42,7 @@ body {
     font-family: var(--font-family);
     font-size: 1.1rem;
     color: var(--white-color);
+    min-height: 100vh;
     transition: var(--transition-1);
 }
 

@@ -42,6 +42,7 @@ body {
   font-family: var(--font-family);
   font-size: 1.1rem;
   color: var(--white-color);
+  min-height: 100vh;
   -webkit-transition: var(--transition-1);
   transition: var(--transition-1);
 }
@@ -843,6 +844,7 @@ footer a:hover {
   }
   .about-wrapper .left-about p {
     text-align: left;
+    font-size: medium;
   }
   .about-wrapper .right-about {
     -ms-grid-columns: 1fr;
@@ -876,7 +878,7 @@ footer a:hover {
     background-color: var(--primary-color);
   }
   .bar .control {
-    margin: 1rem .3rem;
+    margin: .5rem .3rem;
   }
   header {
     padding: 0;
@@ -948,7 +950,8 @@ footer a:hover {
     margin-bottom: 3rem;
   }
   footer {
-    display: none;
+    font-size: 12px;
+    height: 12vh;
   }
 }
 
