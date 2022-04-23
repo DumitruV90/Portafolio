@@ -210,8 +210,8 @@ section {
 .header-content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   height: 100%;
 }
 
@@ -307,8 +307,8 @@ section {
 .about-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
@@ -376,8 +376,8 @@ section {
   margin-right: 10rem;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 }
 
@@ -769,9 +769,9 @@ footer a:hover {
         grid-template-columns: 1fr;
   }
   .about-wrapper .right-about {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    padding: 2rem auto;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    padding: 2rem 1rem;
     margin: 2rem auto;
   }
   .about-wrapper .left-about {
@@ -889,7 +889,7 @@ footer a:hover {
     display: block;
   }
   section {
-    padding: 2rem auto !important;
+    padding: 2rem 0 !important;
     min-height: 100vh;
   }
   .main-title h2 {
@@ -952,11 +952,13 @@ footer a:hover {
   }
 }
 
-@media screen and (orientation: landscape) and (min-device-width: 300px) and (max-device-width: 950px) {
+@media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 950px) {
   .light-theme {
     display: none;
   }
   .bar {
+    top: 52%;
+    right: 1%;
     bottom: 0;
     height: 80%;
     -webkit-box-orient: vertical;

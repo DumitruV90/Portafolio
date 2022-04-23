@@ -160,7 +160,7 @@ section {
 
 .header-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     height: 100%;
     .left-header {
         display: flex;
@@ -228,7 +228,7 @@ section {
 
 .about-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
     .left-about {
@@ -273,7 +273,7 @@ section {
     .right-about {
         margin-right: 10rem;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
         grid-gap: 2rem;
         .about-item {
             position: relative;
