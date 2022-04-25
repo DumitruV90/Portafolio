@@ -893,10 +893,6 @@ footer a:hover {
   header {
     min-height: 100vh;
   }
-  .header-content {
-    margin-bottom: 7rem;
-    padding: 0;
-  }
   .header-content .right-header .name {
     font-size: 2rem;
   }
