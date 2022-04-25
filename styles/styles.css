@@ -60,7 +60,7 @@ a {
 }
 
 section {
-  padding: 3rem 0rem;
+  padding: 2rem 0rem;
   min-height: 97vh;
   width: 100%;
 }
@@ -796,11 +796,14 @@ footer a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+  .header-content .left-header {
+    padding-left: 1rem;
+  }
   .header-content .right-header {
     padding-left: 2rem;
   }
   .header-content .right-header .name {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
   }
   .about-wrapper .left-about {
     margin: 0 4rem;
@@ -814,7 +817,10 @@ footer a:hover {
   .header-content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    padding-bottom: 6rem;
+    padding-bottom: 7rem;
+  }
+  .header-content .left-header {
+    padding-left: 0;
   }
   .header-content .left-header img {
     width: 13rem;
@@ -880,19 +886,21 @@ footer a:hover {
   .bar .control {
     margin: .5rem .3rem;
   }
-  header {
-    padding: 0;
+  section {
+    padding: 2rem 0 !important;
     min-height: 100vh;
+  }
+  header {
+    min-height: 100vh;
+  }
+  .header-content {
+    padding: 0;
   }
   .header-content .right-header .name {
     font-size: 2rem;
   }
   .header-content .right-header .name br {
     display: block;
-  }
-  section {
-    padding: 2rem 0 !important;
-    min-height: 100vh;
   }
   .main-title h2 {
     font-size: 2.5rem;
@@ -945,9 +953,6 @@ footer a:hover {
   }
   .contact-content .contact-form .input-wrapper {
     margin: 0 auto;
-  }
-  .contact-content .cv-btn {
-    margin-bottom: 3rem;
   }
   footer {
     font-size: 12px;

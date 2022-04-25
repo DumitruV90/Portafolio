@@ -38,10 +38,13 @@
 
 @media screen and (max-width: 1200px) {
     .header-content {
+        .left-header {
+            padding-left: 1rem;
+        }
         .right-header {
            padding-left: 2rem;
            .name {
-               font-size: 2.8rem;
+               font-size: 2.7rem;
            }
         }
     }
@@ -60,8 +63,9 @@
 @media screen and (max-width: 1000px) {
     .header-content {
         grid-template-columns: 1fr;
-        padding-bottom: 6rem;
+        padding-bottom: 7rem;
         .left-header {
+            padding-left: 0;
             img {
                 width: 13rem;
                 height: 13rem;
@@ -127,12 +131,17 @@
         }
     }
 
+    section {
+        padding: 2rem 0 !important;
+        min-height: 100vh;
+    }
+
     header {
-        padding: 0;
         min-height: 100vh;
     }
 
     .header-content {
+        padding: 0;
         .right-header {
            .name {
                font-size: 2rem;
@@ -141,11 +150,6 @@
                }
            }
         }
-    }
-
-    section {
-        padding: 2rem 0 !important;
-        min-height: 100vh;
     }
 
     .main-title {
@@ -207,9 +211,6 @@
             .input-wrapper {
                 margin: 0 auto;
             }
-        }
-        .cv-btn {
-            margin-bottom: 3rem;
         }
     }
 
