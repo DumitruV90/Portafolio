@@ -969,7 +969,7 @@ footer a:hover {
     top: 52%;
     right: 1%;
     bottom: 0;
-    height: 90%;
+    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
