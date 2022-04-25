@@ -141,6 +141,7 @@
     }
 
     .header-content {
+        margin-bottom: 7rem;
         padding: 0;
         .right-header {
            .name {
@@ -229,7 +230,7 @@
         top: 52%;
         right: 1%;
         bottom: 0;
-        height: 80%;
+        height: 90%;
         flex-direction: column;
         .control {
             margin: .3rem .1rem;
@@ -237,7 +238,7 @@
     }
     
     header {
-        margin-bottom: 9rem
+        margin-bottom: 9rem;
     }
 }
 
