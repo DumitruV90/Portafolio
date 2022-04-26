@@ -133,9 +133,9 @@
 
     section {
         padding: 2rem 0 !important;
-        min-height: fit-content;
+        min-height: 100vh;
     }
-    
+
     header {
         min-height: 100vh;
     }
@@ -224,6 +224,12 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    header {
+        margin-bottom: 5rem;
+    }
+}
+
 @media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 950px) {
     .light-theme {
         display: none;
@@ -241,12 +247,12 @@
     }
     
     header {
-        margin-bottom: 9rem;
+        margin-bottom: 5rem;
+        height: fit-content;
     }
-
+    
     .header-content {
         padding-bottom: 0;
-        height: fit-content;
     }
 }
 
