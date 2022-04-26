@@ -1,7 +1,7 @@
 @media screen and (max-width: 1700px) {
     .header-content {
         .right-header {
-           padding-right: 9rem;
+            padding-right: 9rem;
             width: 55rem;
         }
     }
@@ -133,15 +133,20 @@
 
     section {
         padding: 2rem 0 !important;
-        min-height: 100vh;
+        min-height: fit-content;
     }
-
+    
     header {
         min-height: 100vh;
     }
 
     .header-content {
+        padding: 0;
+        .left-header {
+            height: fit-content;
+        }
         .right-header {
+            justify-content: center;
            .name {
                font-size: 2rem;
                br {
@@ -237,6 +242,11 @@
     
     header {
         margin-bottom: 9rem;
+    }
+
+    .header-content {
+        padding-bottom: 0;
+        height: fit-content;
     }
 }
 

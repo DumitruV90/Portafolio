@@ -888,10 +888,25 @@ footer a:hover {
   }
   section {
     padding: 2rem 0 !important;
-    min-height: 100vh;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
   }
   header {
     min-height: 100vh;
+  }
+  .header-content {
+    padding: 0;
+  }
+  .header-content .left-header {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .header-content .right-header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .header-content .right-header .name {
     font-size: 2rem;
@@ -976,6 +991,12 @@ footer a:hover {
   }
   header {
     margin-bottom: 9rem;
+  }
+  .header-content {
+    padding-bottom: 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 /*# sourceMappingURL=styles.css.map */
