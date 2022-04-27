@@ -110,7 +110,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (orientation: portrait) and (max-width: 600px) {
     .light-theme {
         top: 3%;
         width: 50px;
@@ -233,9 +233,10 @@
             }
         }
     }
+    /*
     header {
         margin-bottom: 10rem;
-    }
+    }*/
 }
 
 @media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 950px) {
@@ -252,14 +253,6 @@
         .control {
             margin: .3rem .1rem;
         }
-    }
-    
-    header {
-        margin-bottom: 9rem;
-    }
-    
-    .header-content {
-        padding-bottom: 0;
     }
 }
 
