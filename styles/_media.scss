@@ -233,10 +233,6 @@
             }
         }
     }
-    /*
-    header {
-        margin-bottom: 10rem;
-    }*/
 }
 
 @media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 950px) {
@@ -253,6 +249,10 @@
         .control {
             margin: .3rem .1rem;
         }
+    }
+
+    footer {
+        font-size: 12px;
     }
 }
 
