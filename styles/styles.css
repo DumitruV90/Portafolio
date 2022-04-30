@@ -752,6 +752,7 @@ footer {
 
 footer a {
   color: var(--white-color);
+  font-size: inherit;
   letter-spacing: -1px;
   text-decoration: underline;
 }
@@ -966,7 +967,7 @@ footer a:hover {
   }
   footer {
     font-size: .75rem;
-    height: 12vh;
+    height: 90px;
   }
 }
 
