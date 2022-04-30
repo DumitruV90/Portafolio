@@ -54,10 +54,6 @@
             margin: 0 4rem;
         }
     }
-    
-    footer {
-        margin-bottom: .5rem;
-    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -107,9 +103,6 @@
 
     .projects {
         margin: 5rem 5.3rem 0 5.3rem;
-    }
-    footer a {
-        font-size: 14px;
     }
 }
 
@@ -252,6 +245,10 @@
         .control {
             margin: .3rem .1rem;
         }
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
 
