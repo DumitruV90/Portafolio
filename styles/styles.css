@@ -859,6 +859,9 @@ footer a:hover {
   .projects {
     margin: 5rem 5.3rem 0 5.3rem;
   }
+  footer a {
+    font-size: 14px;
+  }
 }
 
 @media screen and (orientation: portrait) and (max-width: 600px) {
@@ -995,9 +998,6 @@ footer a:hover {
   }
   .bar .control {
     margin: .3rem .1rem;
-  }
-  footer a {
-    font-size: 14px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -108,6 +108,9 @@
     .projects {
         margin: 5rem 5.3rem 0 5.3rem;
     }
+    footer a {
+        font-size: 14px;
+    }
 }
 
 @media screen and (orientation: portrait) and (max-width: 600px) {
@@ -249,10 +252,6 @@
         .control {
             margin: .3rem .1rem;
         }
-    }
-
-    footer a {
-        font-size: 14px;
     }
 }
 
