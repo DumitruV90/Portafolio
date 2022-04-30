@@ -555,6 +555,7 @@ footer {
     }
     a {
         text-decoration: underline;
+        font-size: inherit !important;
         &:hover {
             color: var(--secondary-color);
         }
