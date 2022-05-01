@@ -974,7 +974,7 @@ footer a:hover {
   }
 }
 
-@media (orientation: landscape) and (hover: none) and (max-width: 1000px) {
+@media screen and (orientation: landscape) and (hover: none) and (max-width: 1000px) {
   .light-theme {
     display: none;
   }
