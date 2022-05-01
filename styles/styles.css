@@ -991,5 +991,9 @@ footer a:hover {
   .bar .control {
     margin: .3rem .1rem;
   }
+  footer {
+    margin: 0 auto;
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
