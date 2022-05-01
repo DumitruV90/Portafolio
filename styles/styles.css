@@ -975,7 +975,7 @@ footer a:hover {
   }
 }
 
-@media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 950px) {
+@media screen and (orientation: landscape) and (hover: none) and (max-width: 950px) {
   .light-theme {
     display: none;
   }
@@ -991,9 +991,6 @@ footer a:hover {
   }
   .bar .control {
     margin: .3rem .1rem;
-  }
-  footer p {
-    font-size: 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
