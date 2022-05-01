@@ -246,8 +246,12 @@
             margin: .3rem .1rem;
         }
     }
+
     footer {
         text-align: left;
+        footer a {
+            font-size: 15px !important;
+        }
     }
 }
 

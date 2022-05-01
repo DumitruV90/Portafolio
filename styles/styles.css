@@ -994,5 +994,8 @@ footer a:hover {
   footer {
     text-align: left;
   }
+  footer footer a {
+    font-size: 15px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
