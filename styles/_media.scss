@@ -215,7 +215,7 @@
     }
 
     footer {
-        font-size: 11px;
+        font-size: .7rem;
         height: 90px;
     }
 }
@@ -231,7 +231,7 @@
     }
 }
 
-@media screen and (orientation: landscape) and (hover: none) and (max-width: 950px) {
+@media (orientation: landscape) and (hover: none) and (max-width: 1000px) {
     .light-theme {
         display: none;
     }
