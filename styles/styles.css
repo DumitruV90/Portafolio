@@ -274,6 +274,7 @@ section {
 }
 
 .main-title {
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -283,6 +284,7 @@ section {
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
+  line-height: normal;
 }
 
 .main-title h2 span {
@@ -707,7 +709,7 @@ section {
   font-weight: inherit;
   font-size: inherit;
   font-family: inherit;
-  padding: .8rem 1.5rem;
+  padding: 1rem 1.5rem;
   outline: none;
   border: none;
   background-color: var(--grey-5-color);
@@ -752,6 +754,7 @@ footer {
 
 footer a {
   text-decoration: underline;
+  letter-spacing: -1px;
 }
 
 footer a:hover {
@@ -960,7 +963,7 @@ footer a:hover {
     margin: 0 auto;
   }
   footer {
-    font-size: .7rem;
+    font-size: .75rem;
     height: 90px;
   }
 }

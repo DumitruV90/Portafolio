@@ -200,6 +200,7 @@ section {
 }
 
 .main-title {
+    margin-top: 2rem;
     text-align: center;
     h2 {
         position: relative;
@@ -207,6 +208,7 @@ section {
         text-transform: uppercase;
         font-size: 4rem;
         font-weight: 700;
+        line-height: normal;
         span {
             color: var(--secondary-color);
         }
@@ -514,7 +516,7 @@ section {
                     font-weight: inherit;
                     font-size: inherit;
                     font-family: inherit;
-                    padding: .8rem 1.5rem;
+                    padding: 1rem 1.5rem;
                     outline: none;
                     border: none;
                     background-color: var(--grey-5-color);
@@ -555,6 +557,7 @@ footer {
     }
     a {
         text-decoration: underline;
+        letter-spacing: -1px;
         &:hover {
             color: var(--secondary-color);
         }
