@@ -208,7 +208,7 @@ section {
         text-transform: uppercase;
         font-size: 4rem;
         font-weight: 700;
-        line-height: normal;
+        line-height: normal !important;
         span {
             color: var(--secondary-color);
         }
