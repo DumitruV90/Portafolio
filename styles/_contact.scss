@@ -1,0 +1,46 @@
+/* Sección de contacto */
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+    .contact-form {
+        min-width: 400px;
+        width: 30%;
+        .input-wrapper {
+            margin: .8rem auto;
+            .input-item {
+                label {
+                    position: absolute;
+                    left: -10000px;
+                    top: auto;
+                    width: 1px;
+                    height: 1px;
+                    overflow: hidden;
+                }            
+                input, textarea {
+                    margin: .8rem auto;
+                    border-radius: 30px;
+                    font-weight: inherit;
+                    font-size: inherit;
+                    font-family: inherit;
+                    padding: 1rem 1.5rem;
+                    outline: none;
+                    border: none;
+                    background-color: var(--grey-5-color);
+                    width: 100%;
+                    color: var(--white-color);
+                    resize: none;
+                }
+            }
+        }
+        button {
+            background-color: transparent;
+            border: none;
+            font-family: var(--font-family);
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    }
+}

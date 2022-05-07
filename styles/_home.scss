@@ -1,0 +1,41 @@
+/* Contenido de la sección de inicio */
+
+.header-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 97vh;
+    .left-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        img {
+            width: 15rem;
+            height: 15rem;
+            border-radius: 50%;
+            filter: grayscale(100);
+            &:hover {
+                filter: grayscale(0);
+            }
+        }
+    }
+    .right-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 11rem;
+        .name {
+            font-size: 3rem;
+            span {
+                color: var(--secondary-color);
+            }
+            br {
+                display: none;
+            }
+        }
+        p {
+            margin: 1.5rem 0;
+            line-height: 1rem;
+        }
+    }
+}

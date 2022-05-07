@@ -1,0 +1,29 @@
+/* Sección de habilidades */
+
+.skills-wrapper {
+    margin: 5rem auto 2rem auto;
+    max-width: 68.75rem;
+    text-align: center;
+    .skills-row {
+        padding: 20px;
+        margin: .5rem;
+        figure {
+            display: inline-table;
+            margin: .5rem;
+            img {
+                margin: 0 2rem;
+                padding: 1.25rem;
+                border-radius: 5px;
+                transition: var(--transition-1);
+                &:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+                }
+            }
+            .icon {
+                width: 11rem;
+                height: 11rem;
+            }
+        }
+    }
+}

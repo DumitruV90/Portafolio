@@ -1,0 +1,72 @@
+/* Menú principal */
+
+.bar {
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    .active-btn {
+        background-position: left !important;
+        
+        i {
+            color: white !important;
+        }
+    }
+    .control {
+        padding: 1rem;
+        margin: .7rem 0;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        background: linear-gradient(to left, var(--grey-4-color) 50%, var(--secondary-color) 50%);
+        background-size: 200%;
+        background-position: right;
+        transition: background-position 0.5s ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: var(--primary-shadow);
+        cursor: pointer;
+        i {
+            font-size: 1.2rem;
+            color: var(--grey-3-color);
+            pointer-events: none;
+        }
+        &:hover {
+            background-position: left;
+            background-color: var(--secondary-color);
+            i {
+                color: white;
+            }
+        }
+    }
+}
+
+.light-theme {
+    top: 5%;
+    right: 3%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--grey-4-color);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--primary-shadow);
+    z-index: 1;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--white-color);
+    }
+    i {
+        margin: 0 auto;
+        font-size: 1.4rem;
+        color: var(--grey-3-color);
+    }
+}

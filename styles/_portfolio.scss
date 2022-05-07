@@ -1,0 +1,76 @@
+/* Sección de portafolio */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 11rem 0 11rem;
+    .projects-item {
+        position: relative;
+        margin: 1rem auto;
+        img {
+            margin: 0 .5rem;
+            padding: .1rem;
+            width: 27rem;
+            height: 15rem;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: var(--primary-shadow);
+        }
+        .hover-items {
+            width: 27.5rem;
+            height: 15rem;
+            background-color: var(--secondary-color);
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transform: scale(0);
+            transition: var(--transition-1);
+            h3 {
+                font-size: 1.5rem;
+                color: white;
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+            .icons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .icon {
+                    background-color: var(--primary-color);
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 1rem;
+                    cursor: pointer;
+                    transition: var(--transition-1);
+                    i {
+                        font-size: 1.5rem;
+                        color: var(--white-color);
+                        margin: 0 auto;
+                    }
+                    &:hover {
+                        background-color: var(--white-color);
+                        i {
+                            color: var(--primary-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.projects-item:hover .hover-items {
+    opacity: 1;
+    transform: scale(1);
+}
