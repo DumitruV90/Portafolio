@@ -895,7 +895,9 @@ footer a:hover {
     padding: 0;
   }
   .header-content .left-header {
-    height: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .header-content .right-header {
     -webkit-box-pack: center;
