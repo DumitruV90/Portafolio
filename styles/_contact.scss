@@ -12,35 +12,35 @@
             margin: .8rem auto;
             .input-item {
                 label {
-                    position: absolute;
+                    height: 1px;
                     left: -10000px;
+                    overflow: hidden;
+                    position: absolute;
                     top: auto;
                     width: 1px;
-                    height: 1px;
-                    overflow: hidden;
                 }            
                 input, textarea {
-                    margin: .8rem auto;
-                    border-radius: 30px;
-                    font-weight: inherit;
-                    font-size: inherit;
-                    font-family: inherit;
-                    padding: 1rem 1.5rem;
-                    outline: none;
-                    border: none;
                     background-color: var(--grey-5-color);
-                    width: 100%;
+                    border: none;
+                    border-radius: 30px;
                     color: var(--white-color);
+                    font-family: inherit;
+                    font-size: inherit;
+                    font-weight: inherit;
+                    margin: .8rem auto;
+                    outline: none;
+                    padding: 1rem 1.5rem;
                     resize: none;
+                    width: 100%;
                 }
             }
         }
         button {
             background-color: transparent;
             border: none;
+            cursor: pointer;
             font-family: var(--font-family);
             font-size: 1rem;
-            cursor: pointer;
         }
     }
 }

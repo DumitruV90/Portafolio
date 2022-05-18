@@ -10,8 +10,8 @@
         grid-template-columns: 1fr;
         .right-about {
             grid-template-columns: 1fr 1fr;
-            padding: 2rem 1rem;
             margin: 2rem auto;
+            padding: 2rem 1rem;
         }
         .left-about {
             margin: 0 10rem;
@@ -24,12 +24,13 @@
         .projects-item {
             margin-top: 2rem;
             img {
-                width: 25rem;
                 height: 13rem;
+                width: 25rem;
+                
             }
             .hover-items {
-                width: 25.5rem;
                 height: 13rem;
+                width: 25.5rem;
             }
         }
     }
@@ -62,15 +63,15 @@
         .left-header {
             padding-left: 0;
             img {
-                width: 13rem;
                 height: 13rem;
+                width: 13rem;
             }
         }
         .right-header {
+            grid-row: 1;
+            justify-content: end;
             margin: 0 auto;
             padding: 0 !important;
-            justify-content: end;
-            grid-row: 1;
             width: 90%;
             .name {
                 font-size: 2.3rem;
@@ -91,8 +92,8 @@
         .left-about {
             margin: 0 2rem;
             p {
-                text-align: left;
                 font-size: medium;
+                text-align: left;
             }
         }
         .right-about {
@@ -107,28 +108,28 @@
 
 @media screen and (orientation: portrait) and (max-width: 600px) {
     .light-theme {
+        height: 50px;
         top: 3%;
         width: 50px;
-        height: 50px;
     }
 
     .bar  {
-        top: auto;
+        background-color: var(--primary-color);
         bottom: 0;
         flex-direction: row;
         justify-content: center;
         left: 50%;
+        top: auto;
         transform: translateX(-50%);
         width: 100%;
-        background-color: var(--primary-color);
         .control {
             margin: .5rem .3rem;
         }
     }
 
     section {
-        padding: 2rem 0 !important;
         min-height: 100vh;
+        padding: 2rem 0 !important;
     }
 
     header {
@@ -138,7 +139,7 @@
     .header-content {
         padding: 0;
         .left-header {
-            height: fit-content;
+            height: auto;
         }
         .right-header {
             justify-content: center;
@@ -161,8 +162,8 @@
     }
 
     .about-wrapper {
-        padding-top: 2rem;
         padding-bottom: 2rem;
+        padding-top: 2rem;
         .left-about {
             p {
                 padding: 0;
@@ -172,12 +173,12 @@
             .about-item {
                 width: 90%;
                 img {
-                    width: 100%;
                     height: 13rem;
+                    width: 100%;
                 }
                 .about-text {
-                    width: 100%;
                     height: 13rem;
+                    width: 100%;
                 }
             }
         }
@@ -189,13 +190,13 @@
             margin-top: 1rem;
             width: 90%;
             img {
+                height: 13rem;
                 margin: 0 auto;
                 width: 100%;
-                height: 13rem;
             }
             .hover-items {
-                width: 100%;
                 height: 13rem;
+                width: 100%;
                 h3 {
                     font-size: 1.3rem !important;
                 }
@@ -214,8 +215,8 @@
     }
 
     footer {
-        font-size: .75rem;
         height: 90px;
+        font-size: .75rem;
     }
 }
 
@@ -240,11 +241,11 @@
     }
 
     .bar  {
-        top: 52%;
-        right: 1%;
         bottom: 0;
-        height: 100%;
         flex-direction: column;
+        height: 100%;
+        right: 1%;
+        top: 52%;
         .control {
             margin: .3rem .1rem;
         }
