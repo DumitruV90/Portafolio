@@ -139,7 +139,7 @@
     .header-content {
         padding: 0;
         .left-header {
-            height: fit-content;
+            align-items: flex-start;
         }
         .right-header {
             justify-content: center;
