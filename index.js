@@ -48,7 +48,7 @@ const form = document.querySelector(".contact-form"),
 sendBtn.addEventListener("click", (e) => {
     let empty = "";
     if (![user_name.value, email.value, subject.value, message.value].includes(empty)) {
-        swal("Oops!", "Esta sección está en desarrollo. Por ahora puedes enviarme un mensaje al correo electrónico: vasilescu288@gmail.com :)", "error");
+        swal("Oops!", "Esta sección está en desarrollo. Por ahora puedes enviarme un mensaje a través de Linkedin :)", "error");
         e.preventDefault();
         form.reset();
     }
