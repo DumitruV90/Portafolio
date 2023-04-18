@@ -265,6 +265,7 @@ footer a:hover {
   align-items: center;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .header-content .left-header img {
   border-radius: 50%;
